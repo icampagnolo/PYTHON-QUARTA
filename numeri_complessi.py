@@ -21,8 +21,8 @@ class complessi:
     Z.b=-Z1.b
     return Z
 
-  def modulo(self,Z1):
-    m=math.sqrt(math.pow(Z1.a,2)+math.pow(Z1.b,2))
+  def modulo(self):
+    m=math.sqrt(math.pow(self.a,2)+math.pow(self.b,2))
     return m
 
   def StampaComplesso(self):
